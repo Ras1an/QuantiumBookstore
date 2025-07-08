@@ -2,7 +2,7 @@ public class DemoBook extends Book {
     public DemoBook(String ISBN, String title, int publishYear, double price) {
         super(ISBN, title, publishYear, price);
     }
-
+    @Override
     public void printBook(){
         System.out.println("Book Name: " +title + " Price: " + price + " Type: Demo Book");
     }
