@@ -5,7 +5,7 @@ public class EBook extends Book {
         this.fileType = fileType;
     }
 
-
+    @Override
     public void printBook(){
         System.out.println("Book Name: " +title + " File type: " + fileType);
     }
