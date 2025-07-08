@@ -4,7 +4,8 @@ public class PaperBook extends Book {
         super(ISBN,title,publishYear,price);
         this.stock = stock;
     }
-
+    
+    @Override
     public void printBook(){
         System.out.println("Book Name: " +title + " Available quantity: " + stock);
     }
